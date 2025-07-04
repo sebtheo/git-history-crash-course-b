@@ -36,4 +36,6 @@ This should be done using only the steps outlined in the guidance, and not using
 
 ## The Scenario
 
-TODO
+This repository contains a simple Python script which imports from a `.env` file. The `.env` file contains a secret which should not be committed to the repository.
+
+The last commit contains the secret alongside other code changes, and the goal is to remove it from the Git history while preserving the other changes made in that commit.
